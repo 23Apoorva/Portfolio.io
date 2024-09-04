@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <link rel="icon" href="portfolio.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div id="header">
+            <div class="container">
+                  <nav>
+                      <img src="Your paragraph text.png" alt="" class="logo">
+                       <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                       </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                  </nav>
+                  <div class="header-text">
+                        <p>Frontend Developer</p>
+                        <h1>Hi, I'm <span>Apoorva</span></h1>
+                  </div>
+            </div>
+      </div>
+
+      <!------------------------ About section ------------------->
+
+      <div id="about">
+            <div class="container">
+                  <div class="row">
+                        <div class="about-col-1">
+                              <img src="Apoorva.jpg" alt="" srcset="">
+                        </div>
+                        <div class="about-col-2">
+                              <h1 class="sub-tittle" id="heading">About Me</h1>
+                              <p >Hello! I'm Apoorva, a recent BE(ECE) graduate from PES College of Engineering, Mandya. Throughout my academic journey, I
+                              have developed a strong foundation in programming languages such as Java and Python, alongside web technologies like
+                              HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. I consider myself a natural leader, having successfully managed my
+                              project group during college. Additionally, I've organized two impactful awareness programs: one focused on women's
+                              <!-- empowerment and another on mosquito awareness. In my pursuit of learning and growing as a developer, I've built several
+                              projects, including Amazon and Spotify clones, as well as various landing pages like a coffee shop page. I also enjoy
+                              creating games like Simon and Tic Tac Toe using HTML, CSS, and JavaScript. I am multilingual, with proficiency in Hindi, -->
+                              Kannada, Marathi, and English, which allows me to connect with diverse audiences and work effectively in different
+                              environments.</p>
+
+                              <div class="tab-tittles">
+                                    <div class="tab-links active-link" onclick="openTab('skills')">Skills</div>
+                                    <div class="tab-links" onclick="openTab('experince')">Internships/ Certifications</div>
+                                    <div class="tab-links" onclick="openTab('education')">Education</div>
+                              </div>
+
+                              <div class="tab-content active-tab" id="skills">
+                                    <ul>
+                                          <li><span>HTML, CSS, JAVASCRIPT</span><br>Bootstrap, Tailwind</li>
+                                          <li><span>Core Java</span><br>Oops Concept</li>
+                                          <li><span>SQL</span><br>React js</li>
+                                    </ul>
+                              </div>
+
+                              <div class="tab-content " id="experince">
+                                    <ul>
+                                          <li>
+                                          <span>FullStack WebDevelopment internship <a          href="Apoorva - Participation.pdf" style="color:      antiquewhite; font-size: 12px;"><i class="fa-solid      fa-link"></i></a>
+                                          </span>
+                                          <br>from Edu-versity</li>
+                                          <li><span>Python
+                                                <a href="Apoorva_python.pdf" style="color: antiquewhite; font-size: 12px;"><i
+                                                class="fa-solid fa-link"></i></a>
+                                          </span><br></li>
+                                          <li><span>Employability Skill Development Program
+                                                <a href="Softskill - Training.jpg" style="color: antiquewhite; font-size: 12px;"><i class="fa-solid fa-link"></i></a>
+                                          </span><br>From Mahindra</li>
+                                    </ul>
+                              </div>
+
+                              <div class="tab-content" id="education">
+                                    <ul>
+                                          <li><span>Bachelors of Engineering(ECE)</span><br>2024 &nbsp; &nbsp; cgpa-7.12</li>
+                                          <li><span>PUC </span><br>2020 &nbsp;  &nbsp;     Percentage-79</li>
+                                          <li><span>SSLC</span><br>2018 &nbsp; &nbsp; Percentage-80</li>
+                                    </ul>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <!-- -----------------   Services     -------------------- -->
+
+      <div id="services">
+            <div class="container">
+                  <h1 class="sub-tittle" id="heading">My Services</h1>
+                  <div class="services-list">
+
+                        <div>
+                              <i class="fa-solid fa-code"></i>
+                              <h2>Frontend Design</h2>
+                              <p>I specialize in building responsive, user-friendly websites using HTML, CSS, and JavaScript. My focus is on creating
+                              visually appealing designs that offer seamless user experiences. Let's bring your vision to life with a website that
+                              stands out online.</p>
+                        </div>
+
+                        <div>
+                              <i class="fa-brands fa-java"></i>
+                              <h2>Web Design</h2>
+                              <p>Designing intuitive and engaging websites that enhance user experience. Ensuring design consistency and branding across the web platforms.</p>
+                        </div>
+
+                        <div>
+                              <i class="fa-brands fa-react"></i>
+                              <h2>Website Maintance</h2>
+                              <p>Providing regular updates and maintenance to keep websites secure and efficient.
+                              Troubleshooting and resolving any website-related issues.</p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+<!-- --------------------------- My work   ------------------------------ -->
+
+<div id="portfolio">
+      <div class="container">
+            <h1 class="sub-tittle" id="heading">My Projects</h1>
+            <div class="work-list">
+                  <div class="work">
+                        <img src="amazon.jpg">
+                        <div class="layer">
+                              <h3>Amzon Clone</h3>
+                              <p>Created a responsive Amazon homepage clone using HTML and CSS, showcasing my ability to design and structure modern web
+                              layouts.</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  <div class="work">
+                        <img src="spotify.jpg">
+                        <div class="layer">
+                              <h3>Spotify Clone</h3>
+                              <p>Developed a responsive Spotify clone using HTML and CSS, focusing on replicating the sleek design and user interface of
+                              the original platform.</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  <div class="work">
+                        <img src="coffe.jpg">
+                        <div class="layer">
+                              <h3>Coffe Landing page</h3>
+                              <p>Designed a stylish and responsive landing page for a coffee shop using HTML,CSS and JavaScript highlighting modern design elements
+                              and user-friendly navigation</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  
+            </div>
+      </div>
+</div>
+
+
+<!---------------------------------------- -->
+ <div id="portfolio">
+      <div class="container">
+            <!-- <h1 class="sub-tittle" id="heading">My Projects</h1> -->
+            <div class="work-list">
+                  <div class="work">
+                        <img src="simon.png">
+                        <div class="layer">
+                              <h3>Simon Game</h3>
+                              <p>I developed a dynamic Simon Game using HTML, CSS, and JavaScript, replicating the classic memory challenge. This project
+                              showcases my ability to create interactive web applications with engaging user interfaces.</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  <div class="work">
+                        <img src="Note-website.webp">
+                        <div class="layer">
+                              <h3>Note making Website</h3>
+                              <p>I developed a Note Making App using HTML, CSS, and JavaScript, allowing users to create and manage notes efficiently.
+                              This project demonstrates my skills in building functional and user-friendly web applications.</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  <div class="work">
+                        <img src="tic tac toe.jpg">
+                        <div class="layer">
+                              <h3>Coffe Landing page</h3>
+                              <p>I built a Tic Tac Toe game using HTML, CSS, and JavaScript, providing an interactive two-player experience. This project
+                              showcases my ability to create engaging and responsive web-based games.</p>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-solid fa-crop"></i></i></a>
+                        </div>
+                  </div>
+
+                  
+            </div>
+      </div>
+</div>
+
+
+     <!-- --------------- Contact Details ------------ -->
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sub-tittle" id="heading">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> apoorvadhotre42@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 7892324800</p>
+                        <div class="social-media">
+                              <a href="https://www.linkedin.com/in/apoorva-dhotre-832a43258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href="https://github.com/23Apoorva" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                        </div>
+                        <a href="Apoorva_Fresher_2024.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+
+                        <form name="submit-to-google-sheet"> 
+                              <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required>
+                             
+                              <input type="email" name="Email" id="Email" placeholder="Enetr Your Email ID" required>
+                              
+                              <textarea id="message" name="Message" rows="6" placeholder="Enter your message"></textarea>
+                              <button type="submit" class="b" style="border: none;">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                  </div>
+            </div>
+      </div>
+</div>
+
+<div class="copy-right">
+      <p>copyright © 2024 Apoorva. All rights reserved.</p>
+</div>
+      <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyUItxRoJD3GND2miKTnFxo60mPLU3LL_jsb8YiJgudW1RlPtbAjEHj4yRTFqbDFyuS/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                              msg.innerHTML= "Your response submitted successfully !"
+                              setTimeout(function(){
+                                    msg.innerHTML=""
+                              },2000)
+                              form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+            })
+      </script>
+
+      <script src="script.js"></script>
+
+     
+</body>
+</html>
